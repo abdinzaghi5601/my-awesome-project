@@ -1,0 +1,566 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+Maybe… let me do that again…
+
+00:00:02.000 --> 00:00:08.000
+Okay, now we're good. Good morning, everybody! Welcome from sunny Stanford, California.
+
+00:00:08.000 --> 00:00:24.000
+Um, happy Memorial Day weekend for everybody who's in the US. Uh, for those of you guys who are not in the US, today is a holiday, um… But, I actually… My office is not too far from my house, so I came to the office just so I could record this meeting for you guys here.
+
+00:00:24.000 --> 00:00:30.000
+Uh, and somebody mentioned that I look tired, and that's because I always have a morning coffee.
+
+00:00:30.000 --> 00:00:38.000
+But, since it's a holiday, there's no coffee shops open, which is not the biggest problem.
+
+00:00:38.000 --> 00:00:50.000
+Okay, I guess we're still a minute early, but we'll get started. We have a very exciting week. Um, I have a lot to tell you about. Yeah, somebody sent me coffee at home, that would have been so much sense, except I left home.
+
+00:00:50.000 --> 00:00:57.000
+Yeah. You know, I never drank coffee until… it was during my PhD.
+
+00:00:57.000 --> 00:01:11.000
+And I was, um… Researching with this brilliant fellow named John Huang, and he would… He would teach me all these wonderful math things. He was one of the best mathematicians I'd ever worked with. And every day, he would spend about 2 hours
+
+00:01:11.000 --> 00:01:21.000
+Uh, making coffee. And, uh, I realized that if I drank coffee, I could spend two more hours with him, so then I got terribly addicted. But I also learned a lot of amazing math.
+
+00:01:21.000 --> 00:01:28.000
+Which is not that important right now. Okay, it's 9 o'clock!
+
+00:01:28.000 --> 00:01:34.000
+Shall we get started? Good morning! To get us going, why don't you guys all tell us where in the world you're, uh, chatting in from?
+
+00:01:34.000 --> 00:01:57.000
+Um… Singapore, Greece, India… Libya, London, Belgium, Barcelona, Switzerland, UAE, California, India, Pakistan… I can't read them all, but… People from all over the world, which is the beauty of Code in Place. So, everybody welcome to The final week of Code in Place. Hi, Cameron.
+
+00:01:57.000 --> 00:02:07.000
+Okay, let me share my screen. So, uh… As I mentioned, it's the final week of code in place. Sorry, this is the admin view.
+
+00:02:07.000 --> 00:02:12.000
+Uh, and let's see if their new content is there. It is there.
+
+00:02:12.000 --> 00:02:18.000
+Here's the new content for this week. Uh, this week's emphasis is on data structures.
+
+00:02:18.000 --> 00:02:25.000
+So you're gonna learn about lists and dictionaries in particular. And if you master these, I consider this the end of the core of programming.
+
+00:02:25.000 --> 00:02:49.000
+You are in a really wonderful place. Of course, you can always go further, but this is the foundation upon which everything's built. So if you know control flow, that's what you learned in the first couple weeks. If you learn how to work with variables in console programming, um, you know, in the last week we practiced parameters, and now we're practicing data structures like listen dictionaries, like, you've got this incredible foundation.
+
+00:02:49.000 --> 00:02:58.000
+So, that's where we're going, uh, in this week. A couple things to point out about this week. Uh, one important thing is, is your last section.
+
+00:02:58.000 --> 00:03:04.000
+So, after this week, there'll be no more sections. Uh, so this is a really important section to attend.
+
+00:03:04.000 --> 00:03:12.000
+You get to say thank you and goodbye to your section leader. As you guys know, they're all volunteers, they're not paid. They came and taught section out of the goodness of their heart.
+
+00:03:12.000 --> 00:03:17.000
+Uh, so come to your section, turn on your video, say thank you to your section leader.
+
+00:03:17.000 --> 00:03:22.000
+And, you know, have a chance to say goodbye to all the friends you made along the way.
+
+00:03:22.000 --> 00:03:28.000
+Now, it's not the end of Code in Place. Code and Place will continue, it's just the last week of sections.
+
+00:03:28.000 --> 00:03:34.000
+Another interesting thing that's on for this week is there's the optional diagnostic. So.
+
+00:03:34.000 --> 00:03:46.000
+If you were a student in my Stanford class. Around this part of the term, I would give you a midterm, and you would take the midterm and You know, part of the reason they do that on class is to get a grade.
+
+00:03:46.000 --> 00:04:09.000
+We don't do grades in code and place. But the students who take the midterm are also getting feedback. They're getting an opportunity to diagnose where they're strong and where they need to practice a little bit more. So, you know, in the interest of making code in place the highest quality online course possible, we wanted to give you this opportunity. Um, so, you know, there's this optional diagnostic. Please do try it.
+
+00:04:09.000 --> 00:04:18.000
+When you started, though, you only have 3 hours to complete it from when you start. It shouldn't take you that long. It should only take 50 minutes, but you can take up to 3 hours.
+
+00:04:18.000 --> 00:04:40.000
+Uh, but just know that for when you start it. If you take it this week, what we'll do is, over the weekend and the beginning of next week, we'll try and get feedback for everybody who takes the diagnostic. So, some form of feedback for everybody. So, please do come take the diagnostic, it's fantastic for you guys, um, and then…
+
+00:04:40.000 --> 00:04:47.000
+Happily give you some feedback on it. Um, let me see, what else is worth noting about week 6?
+
+00:04:47.000 --> 00:04:53.000
+Well, maybe an interesting thing is it's the end of the core. If you learn these concepts really well.
+
+00:04:53.000 --> 00:05:01.000
+Uh, you'll be in a fantastic place for building things, and to celebrate that, after week 6, the last project, or the last thing for Code in Place.
+
+00:05:01.000 --> 00:05:11.000
+Is your final project, um… So, this is early, it's not normally the time when people start doing their final projects, that's normally next Monday.
+
+00:05:11.000 --> 00:05:19.000
+But if you wanted to get a sneak peek, you can learn about the final project, um, and we have guidelines, examples from the past.
+
+00:05:19.000 --> 00:05:39.000
+Um, and, you know, a few different, uh. Ways you can get started. We also do have a tool that's in beta release, to help you brainstorm a final project. Uh, and then, of course, you submit your final project, but you have a while to submit your final project. It's not due until, let's see.
+
+00:05:39.000 --> 00:05:47.000
+June 14th, and that's the gold deadline. If somehow you miss that date, uh, we'll somehow get you into the showcase.
+
+00:05:47.000 --> 00:05:51.000
+Um, okay, so that's coming up. And you know, that's not all.
+
+00:05:51.000 --> 00:05:59.000
+Um, next week we'll also get to talk about really wonderful content about Beyond Code in Place. Uh, we'll talk about what you do.
+
+00:05:59.000 --> 00:06:03.000
+After this wonderful course, so that you can keep learning. Because, of course.
+
+00:06:03.000 --> 00:06:17.000
+You know, you guys have come this far, it's time to celebrate the knowledge you've gained. And that could be practicing, making bigger and bigger programs. You can always use the CodePlace website for that, um, but we'll also teach you how you can start to program
+
+00:06:17.000 --> 00:06:25.000
+Off the Code in Place website, um, and we'll mention all the tips and tricks we think that you would need in order to be successful.
+
+00:06:25.000 --> 00:06:47.000
+So, there you go. Now, coming back to this week, then your goals are pretty straightforward. You know, learn about this wonderful construct called a list. Learn about a wonderful construct called dictionary. I'm going to show you some code in a second, but in the meantime, maybe I could take on some questions.
+
+00:06:47.000 --> 00:07:03.000
+Oh, someone asked, does the diagnostic have to be completed before the coming weekday? Does that mean before Friday? I believe it… means by Sunday. Let's… um, see if… I wonder if one of the directors knows the answer to that question. I'll double-check it.
+
+00:07:03.000 --> 00:07:14.000
+I normally know these ones, but… Joseph knows.
+
+00:07:14.000 --> 00:07:15.000
+Hello?
+
+00:07:15.000 --> 00:07:23.000
+And now I have to figure out how to… Hey, Joseph, do you know the answer to the question when people have to finish their diagnostic by?
+
+00:07:23.000 --> 00:07:27.000
+Um, I think they have… as long as they would like to.
+
+00:07:27.000 --> 00:07:34.000
+We need it done by… no, there is a deadline so that we can grade it, and I believe the diagnostic deadline is Sunday.
+
+00:07:34.000 --> 00:07:36.000
+It's June 1st, Chris. That's what we have to, you know, Sunday.
+
+00:07:36.000 --> 00:07:50.000
+June 1st, is that Sunday? Okay, yeah. And the reason why we do it by June 1st is so that we can actually give you guys feedback. What time? We'll say anywhere on Earth.
+
+00:07:50.000 --> 00:08:11.000
+Um… Um… Someone asked, uh, hey, we… I completed all the work, um… And I should be qualified for a certificate. Could I possibly jeopardize it by starting a final project? Absolutely not! No, we want you to make a final project. You can't jeopardize your certificate.
+
+00:08:11.000 --> 00:08:16.000
+But, uh, it's a wonderful thing to do. So, you know, give the final project.
+
+00:08:16.000 --> 00:08:21.000
+A shot. You can make something small. That is of your own creation, but little.
+
+00:08:21.000 --> 00:08:29.000
+You can make something big. We put a couple ideas of past projects that have been successful that you might find interesting.
+
+00:08:29.000 --> 00:08:48.000
+But, uh, some, you know, something of your own creation. Uh, for people who say they can't see week 6 set, you have to refresh your page. You might have to hit… reload. Um, yeah, wonderful. Uh, I must say, I've noticed some really wonderful things being shared, um…
+
+00:08:48.000 --> 00:08:52.000
+On the forum, people are already starting to make some neat things.
+
+00:08:52.000 --> 00:09:03.000
+And, you know, before I jump into talking about dictionaries. I will, um, lightly note that one of the cool things that happened this week is there's this new database library.
+
+00:09:03.000 --> 00:09:16.000
+So one of the people on our team, uh, Sierra. Decided to make a new library for you guys. So, she's giving you access to a database where you can do a get, a set, and a list.
+
+00:09:16.000 --> 00:09:27.000
+Um, where you can get a value associated with a key, you can set a value, and you can list it out. It's persistent, so every time you run this program, it's still gonna be there. What a time to be alive.
+
+00:09:27.000 --> 00:09:34.000
+This is a slightly advanced. Actually, I've never heard of an intro class that gave this sort of library to students.
+
+00:09:34.000 --> 00:09:42.000
+But it's a really cool thing to learn, and you can think of it as, you know, a little bit of hint towards what you could do in life beyond code and place.
+
+00:09:42.000 --> 00:09:50.000
+Um… did I see something about functions? Uh, June 1st is the deadline for the diagnostic.
+
+00:09:50.000 --> 00:09:57.000
+For week 6 task completions, it's the standard where you should go to section, uh, but you can finish the tasks.
+
+00:09:57.000 --> 00:10:03.000
+Uh, anytime to get your certificate. But June 1st is the deadline for the diagnostic.
+
+00:10:03.000 --> 00:10:15.000
+Um… Okay. You know, the deadline, if you wanted the deadline, I… are rather sure that if you click on the diagnostic, it will have all the information there.
+
+00:10:15.000 --> 00:10:26.000
+Uh, I'm just a little bit shy because I think I've already finished my diagnostic, so if I click on this, it won't do anything, but if you click on this, it'll give you all the deadlines you need, I believe.
+
+00:10:26.000 --> 00:10:47.000
+Um, yeah. Hey, oh, so many wonderful pieces of gratitude. We really appreciate you guys. You guys have worked so hard. We've never had so many students completing so much. It's incredible. I think we had… Um, so… so many students are writing so many programs, it just makes us so happy. Uh, someone asked, could you explain about the…
+
+00:10:47.000 --> 00:11:06.000
+Diagnostic again? So the Diasaka's totally optional. If you click on this, it'll bring you to a home page, which gives you information Uh, when you hit start, you'll have 3-week… er, sorry, 3 hours to finish five problems, uh, and after that, fantastic, and then
+
+00:11:06.000 --> 00:11:17.000
+Uh, you're done. With the diagnostic. Then next week, we'll give you some feedback on your five problems. Totally for fun, not for grade. It doesn't matter how well you do or how bad you do, it's a chance for learning.
+
+00:11:17.000 --> 00:11:26.000
+Just like everything in commonplace. It will only cover content from the first 5 weeks of the course. It will not cover content from week 6.
+
+00:11:26.000 --> 00:11:36.000
+People are gonna miss Carol and the class. You know, the class will still be here, so you can keep coming back, but you might miss your section and your section leader.
+
+00:11:36.000 --> 00:11:41.000
+Ah, this is so wonderful. Um, hey, you know.
+
+00:11:41.000 --> 00:11:59.000
+Uh, this week, you're gonna be learning dictionaries, uh, and there's a lot of really fun things you can do with dictionaries and lists. These are the core to data science. Um, I actually was playing with a couple test assignments. Do you guys want to see them? Because then I can show you the solutions, if you're curious.
+
+00:11:59.000 --> 00:12:03.000
+Um, and maybe that'll give you a sense of the things that you'll learn.
+
+00:12:03.000 --> 00:12:09.000
+So, uh, one of the things that you're gonna learn this week is this thing called a dictionary.
+
+00:12:09.000 --> 00:12:15.000
+And a dictionary, it maps keys to values, so it says, uh, if somebody does a lookup.
+
+00:12:15.000 --> 00:12:29.000
+For Panda, I'm gonna give them back an A. Somebody does look up for Apple, I'm gonna give them up a B. This is a particular dictionary, you could make your own, my dictionary, uh, and that could be, like, let's say, a mapping from people's names.
+
+00:12:29.000 --> 00:12:34.000
+To their phone numbers. And this is not going to be my actual phone number, for obvious reasons.
+
+00:12:34.000 --> 00:12:44.000
+And, you know, a dictionary allows you to store lots of information all in one variable, and that information's stored with a mapping of keys to values. How neat is that?
+
+00:12:44.000 --> 00:12:56.000
+Um, so we could do Cameron… Uh, let's not give Cameron's real phone number, shall we? Cameron, if I guess your phone number randomly, you let me know.
+
+00:12:56.000 --> 00:13:02.000
+Um, or we could put in, like, Jenny.
+
+00:13:02.000 --> 00:13:29.000
+58675309. Anyways, so a dictionary… allows for this mapping of keys to values. Here I have a little assignment I was thinking about making, uh… as a dictionary assignment, it has a thing called a substitution cipher. So if somebody has a secret message, uh, and our job is to decrypt it, and this dictionary stores the key for decrypting it. It tells you every time you see this emoji.
+
+00:13:29.000 --> 00:13:38.000
+It means that the person wanted to see. Every time you see the turtle, uh, it means that they wanted an O. So this is a key-value mapping that's gonna allow you to decrypt a message.
+
+00:13:38.000 --> 00:13:48.000
+Uh, right now, if I run this program. It doesn't do anything.
+
+00:13:48.000 --> 00:13:59.000
+Let me see if I… oh. If… name… equals… turns out this if name equals main thing is super important. If you don't have it, then your program doesn't do anything when you run it.
+
+00:13:59.000 --> 00:14:05.000
+Okay, so right now when I run the program, it just gets me the characters in the string one at a time.
+
+00:14:05.000 --> 00:14:17.000
+Uh, and, you know, just for a little teaser. As to this wonderful dictionary data structure, I can use this dictionary data structure, and every time I get a character, I can do a lookup.
+
+00:14:17.000 --> 00:14:26.000
+So if I wanted to do a lookup in the secret… er… you know, a normal lookup would look like this. So, the result equals description, dictionary.
+
+00:14:26.000 --> 00:14:31.000
+Or decryption dictionary, and we can put in, like, a watermelon.
+
+00:14:31.000 --> 00:14:38.000
+If we look up for a watermelon, what do you guys think we'd get as a result?
+
+00:14:38.000 --> 00:14:45.000
+Oops. Doesn't allow that in this version of Python. Um, you know, if we look it up.
+
+00:14:45.000 --> 00:14:50.000
+What is corresponding to the watermelon? Well, it is the string S.
+
+00:14:50.000 --> 00:14:58.000
+So, this dictionary allows you to look up things. So if you look up watermelon, you get the string S, Um, if I looked up cactus.
+
+00:14:58.000 --> 00:15:02.000
+When I run this program, it tells me the cactus corresponds to a K.
+
+00:15:02.000 --> 00:15:18.000
+Um, and so now… This is gonna seem advanced for you guys, but you'll learn how to do this in this week. Um, what I can do is, for every single character in the secret message, I can look up The decrypted…
+
+00:15:18.000 --> 00:15:25.000
+By saying, okay, decryption dictionary, can you look up the value associated with my current character.
+
+00:15:25.000 --> 00:15:31.000
+Um, and then we could print that decrypted character. Now, this will crash.
+
+00:15:31.000 --> 00:15:36.000
+After a while, it says coding, and then it crashed on a space, because the space was not in the dictionary.
+
+00:15:36.000 --> 00:15:48.000
+Uh, this error says that… Um, um… We need to separately handle the fact that you have a space, so there's a space here that's not in the dictionary.
+
+00:15:48.000 --> 00:15:53.000
+So we can say, like, if car equals space, we could continue.
+
+00:15:53.000 --> 00:15:59.000
+Or if it does not equal space. We could run this code.
+
+00:15:59.000 --> 00:16:07.000
+That's probably better style. Um, and if you now print it out, it says, we now know that the secret message said, coding rocks.
+
+00:16:07.000 --> 00:16:22.000
+This is just one example of something you could do by the end. I'll give you another quick example. This is going to seem complicated, but I thought this was kind of a fun thing not required. I was just playing with things that we could ask you.
+
+00:16:22.000 --> 00:16:29.000
+This is a fun little program that says AI Benchmark. Here I have a dictionary where I have questions associated with their answer.
+
+00:16:29.000 --> 00:16:37.000
+So it's a dictionary that has this question associated with its answer, this has this question associated with its answer.
+
+00:16:37.000 --> 00:16:41.000
+And in this program, what I'm gonna do is, I loop over all the questions.
+
+00:16:41.000 --> 00:16:54.000
+Uh, and for every single question. Uh, I am going to ask… GPT to answer the question. I'll see how often they get it right.
+
+00:16:54.000 --> 00:17:09.000
+So… you know, uh, this is my little AI benchmark. I have a bunch of questions here. It says, what letter do these words have in common? Freight, stone, often crane. Only respond with a single letter. The right answer was E.
+
+00:17:09.000 --> 00:17:20.000
+And ChatCPT gave me back an E. But I have a bunch of other questions, like this one says, a train leaves at noon going 60 miles per hour, another train leaves at 1pm going 8 miles per hour. Flashbacks from math class.
+
+00:17:20.000 --> 00:17:25.000
+And I asked this to ChatGPT, the right answer was 4, but ChatGPT said it was 2.
+
+00:17:25.000 --> 00:17:40.000
+I told ChatGPTs, hey, I've got this string, can you count how many hash marks are there? And it couldn't. And I think this was kind of interesting to both practice dictionaries, but also, uh, to look at how ChatGPT is not always right.
+
+00:17:40.000 --> 00:18:03.000
+Anyways, those are two examples of advanced things that you'd be able to do. What you're going to write programs are, are We're gonna have you do compute average, uh, and Quizlet, and… Quizlet is gonna give you, um… Some words and their equivalent in Spanish, and you're going to build a little program that loops over these words.
+
+00:18:03.000 --> 00:18:08.000
+Asks the user to come up with a Spanish version, and then tells them if they got it right or wrong.
+
+00:18:08.000 --> 00:18:19.000
+Um, anyways, this is all just the start. Once you learn Listen dictionaries, you've got the building blocks to make all the wonderful things that you're dreaming of.
+
+00:18:19.000 --> 00:18:27.000
+Um…
+
+00:18:27.000 --> 00:18:43.000
+Someone asked a really wonderful question, which is like, hey. You know, after this class, can we learn about Python and AI and mathematics? And the answer is absolutely, you know, we'll have We'll have information on that, uh, probably by the end of this next, uh, week.
+
+00:18:43.000 --> 00:18:54.000
+Um, so Python is the language for AI, and it is the language for mathematics and computing. Um, so if you find that interesting, you can continue. Someone else asked the question, hey, I'd like to learn how to make websites.
+
+00:18:54.000 --> 00:19:11.000
+Fantastic. I also like to make websites, particularly ones that teach people how to code. Um, and… Uh, in the… when you're trying to make websites, uh, you'll probably be… writing things called HTML and CSS, that's the markup language for what you see on the web.
+
+00:19:11.000 --> 00:19:20.000
+Uh, but then you'll probably want to add in some programming to it. People traditionally use a thing called JavaScript, though there is a growing community of people who are using Python.
+
+00:19:20.000 --> 00:19:26.000
+What you would do then, after code in place, is you'd learn JavaScript, and that sounds like a whole new language, but I have good news for you.
+
+00:19:26.000 --> 00:19:41.000
+It's just not that different. Javascript and all other programming languages are deeply related. Once you know one, and you know the principles, then you'll find the other ones not so complicated. Like, if you saw a for loop in JavaScript.
+
+00:19:41.000 --> 00:19:47.000
+You're probably thinking, hey, that looks just like a for loop in Python. Uh, if you saw an if statement in JavaScript, you'd think it's just like an if statement.
+
+00:19:47.000 --> 00:19:54.000
+Dictionaries and lists are also, you know, very translatable from one language to another.
+
+00:19:54.000 --> 00:20:10.000
+Um… Okay. Um, oh, people are asking such wonderful questions, and it seems like, you know, if you write a question to the Q&A, you'll probably get an answer from Joseph Uh, and Cameron, who can answer many more questions than I can.
+
+00:20:10.000 --> 00:20:14.000
+Uh… Yeah.
+
+00:20:14.000 --> 00:20:37.000
+Uh, which version of Python are we using in CodePlace? The online IDE has Python 3.9. Python goes up to 3.11, though the new features of Python are not ones that you'd probably be using as a beginner, uh, and the reason that we're on 3.9 is actually a replay buffer was built in based off of some assumptions from 3.9, and we thought the replay buffer was super important to give you guys.
+
+00:20:37.000 --> 00:20:51.000
+Awesome. Some people saw the Wired video, that's awesome. Um… somebody wanted to learn about other libraries. Uh, they mentioned one called Pandas and Colab, which you might not have heard of.
+
+00:20:51.000 --> 00:21:03.000
+Uh, but there's a lot of libraries in Python, more than just graphics and AI. There's a couple for data science. One is called Pandas, and that allows you to quickly load things like CSVs.
+
+00:21:03.000 --> 00:21:16.000
+Uh, and the answer is yes. You can definitely learn how to use Pandas. Once you know the basics of programming, uh, even a quick Google search would probably make you very… good at using any library.
+
+00:21:16.000 --> 00:21:27.000
+Um, so if you googled how to, uh, load a file with Pandas, that'd put you in a really, really good place.
+
+00:21:27.000 --> 00:21:35.000
+Yeah, you know, a lot of people are asking questions about what can we do beyond code and place? And I have good news. I'm answering some of the questions now.
+
+00:21:35.000 --> 00:21:58.000
+But the real answer is, at the end of code in place, so not this week, but after next week, we'll put together a really big document, which has all the ways that you can continue learning after code in place. Because, of course, if you guys keep learning and become wonderful engineers, that would make us happy. So, we put a lot of energy into this document every year, and we list a whole bunch of different ways you can move forward.
+
+00:21:58.000 --> 00:22:06.000
+Because, depending on, uh, what you want, maybe different paths forward will be the right thing for you.
+
+00:22:06.000 --> 00:22:26.000
+Yeah. Uh, yeah, we are gonna have optional workshops on things like animations, we're gonna have optional workshops on using APIs, we'll have optional workshops on how to set up an IDE on your computer. We'll have optional workshops on how to work with strings, if you really want to get deeper into string analysis.
+
+00:22:26.000 --> 00:22:32.000
+Um, and then, you know, obviously, one day we just need to make a code in place, too.
+
+00:22:32.000 --> 00:22:40.000
+Now, I must say, for students. Um… So, after this week, and after next week, we really hope you keep learning.
+
+00:22:40.000 --> 00:22:48.000
+And if you do keep learning, and by the way, learning how to teach your… one of the beautiful things about programming is, once you know the basics, you can really, really teach yourself.
+
+00:22:48.000 --> 00:22:52.000
+Um, there's a lot of great things that you can do.
+
+00:22:52.000 --> 00:22:58.000
+So, in Codaplace, we hope to give you your basics, uh, and then after that, you're in a really good place to teach yourself.
+
+00:22:58.000 --> 00:23:05.000
+Now, let's say you do that, and you keep learning a little bit, and you get a little bit better over the next year.
+
+00:23:05.000 --> 00:23:17.000
+You know what'd be a really great next step? You can come back as a section leader. Um, you know, we're always looking for section leaders. We hope that code in place 6 happens. We have every reason to believe it should happen around this time next year.
+
+00:23:17.000 --> 00:23:22.000
+Uh, and we'll probably need, on the order of 1,500 more section leaders.
+
+00:23:22.000 --> 00:23:29.000
+Um, uh, and, you know, if you had a great experience, you can give back, uh, by teaching.
+
+00:23:29.000 --> 00:23:45.000
+Now, you know there's a self-guided course for people who want to learn between now and next year. If for some reason they don't want to be learning programming specifically between April And me, uh, they can always use our self-guided course, which you can access through the homepage.
+
+00:23:45.000 --> 00:23:57.000
+Um, yeah, a wonderful thing. Oh, I'm really excited for you guys. You know, uh, the lessons this week are a little bit longer. Uh, we tried to put in a couple, uh.
+
+00:23:57.000 --> 00:24:07.000
+Choice learning experiences, but they're worth it. Uh, we have some great guest lectures this week from Braum and Juliet, who have both been head TAs of 106A.
+
+00:24:07.000 --> 00:24:13.000
+Um, and, uh, they're really wonderful up-and-coming teachers. So, you know.
+
+00:24:13.000 --> 00:24:18.000
+Go have some fun, learn about your lists and your dictionaries.
+
+00:24:18.000 --> 00:24:33.000
+Okay, let's see… Cameron or Joseph, you know, I'm seeing the stream of questions, but if there's any that are particularly common… uh, let me know, and I can answer them.
+
+00:24:33.000 --> 00:24:42.000
+Oh… someone asked a really deep and interesting question. They said, hey, sometimes if I get really stuck programming, I can ask ChatGPT.
+
+00:24:42.000 --> 00:24:52.000
+Um, is that… and maybe I'll carry on the question, which is just, how should I think about using ChatGBT to learn?
+
+00:24:52.000 --> 00:25:10.000
+You know, ChatGPT is probably going to be one of the important education tools of the future. You can answer… you can get any question you want answered, and it can be really amazing for unblocking, uh, your skill levels. I think you will become the smartest generation, uh, that humanity has ever seen.
+
+00:25:10.000 --> 00:25:27.000
+Uh, one of the things, though, is it's really gonna take you being smart about how you use these tools. Um, you know, having ChatGPT teach you the concepts so that you can program out in your own, uh, that's really helpful for you growing and reaching your own potential.
+
+00:25:27.000 --> 00:25:34.000
+So, I use ChatGPT, but I often use it more as a teacher, uh, than as, uh.
+
+00:25:34.000 --> 00:25:39.000
+Someone to solve my problems. Though, I do co-program with ChatGPT.
+
+00:25:39.000 --> 00:25:43.000
+Now I'm at the point where I'll build a big program.
+
+00:25:43.000 --> 00:25:54.000
+I'll architect it, I'll make the important decisions, I'll design what I want, and when I get to some of the smaller pieces of code, I'll have ChatGPT or Claude, uh, help me. And we'll talk a little bit about that balance.
+
+00:25:54.000 --> 00:26:02.000
+Uh, next week. Yeah. Somebody says we should set up CIP Alumni Associations over the world, and I actually totally agree.
+
+00:26:02.000 --> 00:26:09.000
+You know, maybe this is a… this year, we had a very small ambassador program, where we prototyped having, I think.
+
+00:26:09.000 --> 00:26:21.000
+12 people reaching out to communities, I think we had, like, for example, an ambassador in Kazakhstan who had, uh, go find people who didn't know about programming and tell them about the joys of learning to program.
+
+00:26:21.000 --> 00:26:36.000
+Um, and, uh, if you… If people find this interesting, then maybe we should… we should consider expanding the Ambassador Program.
+
+00:26:36.000 --> 00:26:50.000
+Uh… Someone said something came up in their life, I won't go into the details, um… And they wanted to say, like, you know, it was unexpected, a loss of a loved one.
+
+00:26:50.000 --> 00:27:05.000
+Can I finish the work? Um… And the answer is, you know, this is a beautiful thing about code in if something comes up, first of all, I hope you're okay, and we're sending all our best to you and your loved ones. I know how hard life can sometimes be, and
+
+00:27:05.000 --> 00:27:10.000
+Just, you know, we want you to be your best version and do what you need to do.
+
+00:27:10.000 --> 00:27:14.000
+And coding will still be here. Uh, so when you're done.
+
+00:27:14.000 --> 00:27:28.000
+Um, you can… possibly, uh, just finish your work later. Go to your section if you can, um, but the assignments you can complete at any time. And if you can't make your section, that's also fine, too.
+
+00:27:28.000 --> 00:27:34.000
+You know, there's things in life that are more important.
+
+00:27:34.000 --> 00:27:50.000
+Yeah. Someone has mentioned a Discord server. I think one of the things that we might mention in Life Beyond code in places, there has been a pretty, uh, active continuation of folks. Uh, though you can keep using the Code in Place forum, uh, to the extent that's helpful.
+
+00:27:50.000 --> 00:28:02.000
+I would say there's probably… There's still people online from Code in Place 4, so you can imagine, at any point in time, if you go back to put in place 5, you'll probably find a couple of your friends who are still learning to program.
+
+00:28:02.000 --> 00:28:20.000
+And you can still ask questions, and you can still answer questions, um… someone says, how did you come up with the idea to do this for free? This is very impactful and amazing. You know, we just are a bunch of people who love teaching, and when you love teaching, you want to find people to teach.
+
+00:28:20.000 --> 00:28:26.000
+Uh, and so, uh, you know, the idea to do it for free came in the pandemic.
+
+00:28:26.000 --> 00:28:37.000
+Um, but really the special thing was bringing in the section leaders. I think that made the course really special, and really work in a way that That normally doesn't.
+
+00:28:37.000 --> 00:28:45.000
+Um… Yeah… Okay, you guys are coming close to the end.
+
+00:28:45.000 --> 00:28:51.000
+Um… and… You know, maybe this is a good moment for some thank yous.
+
+00:28:51.000 --> 00:29:21.000
+You know, code in place is a really wonderful operation, and it starts with you guys. You know, the… we can't run a course without wonderful students, and I've always been amazed By how exceptional our students are. Not just in your programming, certainly there's some people who are great programmers here, but in your spirit, and in the way you approach learning, and the way you tackle on new challenges, I've just found it wonderful. And on how great you guys have been to each other, um, I think a lot of people don't try things like code in place because they're afraid that people won't be lovely to each other.
+
+00:29:24.000 --> 00:29:48.000
+But, you know, here we have folks from every corner of the world, and they're just being totally exceptional to each other, kind in every way, polite, respectful, thankful Uh, we have this shared love of programming, uh, and then we bring our experiences from every corner of the world. And maybe at a time like this, it's good to think that… to remind ourselves that people are people in every corner of the world, and there's a lot of great…
+
+00:29:48.000 --> 00:30:10.000
+Greatness in humanity, so thank you to the students first. And then, of course, oh, we can't go without saying thank you to the section leaders. You know, you volunteer, you don't have to. This is a lot of time of your life, not just teaching, but also training, helping on the forum, doing Teach Now. I was like, this is all a lot of things that you didn't have to do, and you're not getting paid to do, and we just appreciate that out of the goodness of your heart, you want to give back.
+
+00:30:10.000 --> 00:30:34.000
+Like, you have this ability to program, and with that skill, you want to help others. And I just, you know, of course, that means a lot to me. And, you know, from the sectional leaders, the next people that I think, are the head TAs. You guys might not know this, but the section leaders are managed by a group of about 20 wonderful TAs, and they do things like help with content, but they also train our section leaders and give them
+
+00:30:34.000 --> 00:30:42.000
+Insights and feedback. And then next, we should thank our three directors, Inessa, Joseph, and Cameron. Uh, they're the people that the head TAs report to.
+
+00:30:42.000 --> 00:31:05.000
+Um, and, you know, we couldn't run a class without such exceptional people. And they are helping on all levels, you know, you… They… their main job is just to help with the head TAs, but you'll see these three just going above and beyond on the forums, uh, helping with hiring, just incredible. All over, all over code and place, uh, you know.
+
+00:31:05.000 --> 00:31:32.000
+I can sleep at night because I have help from such incredible people. Uh, and then even behind the scenes, there's a bunch of people who have been developing the course website, uh, making it happen, you know, you have an IDE because a couple… on the order of two people were like, I really want to make an IDE, and now there's a group of people who keep, uh, making it slightly better. We have a forum, we have all these wonderful things, because a couple people volunteered to make them.
+
+00:31:32.000 --> 00:31:36.000
+Uh, so thank you to everyone who's a developer now, and a developer in the past.
+
+00:31:36.000 --> 00:31:49.000
+Um, and then… you know, there's other folks behind the scenes who help us with advertising and hiring, people who help with small things like ambassadors, and uh… it's just become a great community.
+
+00:31:49.000 --> 00:32:06.000
+And altogether, even though there's slightly different roles, we come together as about, you know, 20,000 people, uh, to make a lot of learning happen. So, just really humbled to get to work with such fantastic people. Uh, it's the best. And if you ever get a chance to work with fantastic people, take it.
+
+00:32:06.000 --> 00:32:17.000
+Um, it can make, uh, for a really joyful experience. Um, and, you know, as we say, this is not the end of code and place. You have this week with your section.
+
+00:32:17.000 --> 00:32:24.000
+Then you have next week to work on your final projects, and then, of course, we don't shut down the website. You can finish your final projects over the course of the next month.
+
+00:32:24.000 --> 00:32:29.000
+Or 2 months. You can finish code in place by the end of July and still get your certificate.
+
+00:32:29.000 --> 00:32:38.000
+So, this is not the end of code in place, but this is going to be my very last, uh, Monday Chris and Marilyn, um, and… So… so I say thank you, and we'll see you on the forums. Good luck learning lists, good luck learning dictionaries. If you have questions, ask us, we'd love to help you with any misconceptions. And…
+
+00:32:38.000 --> 00:32:56.000
+Okay
+
