@@ -69,10 +69,10 @@ def predict():
         if missing_features:
             return jsonify({'error': f'Missing features: {missing_features}'}), 400
         
-        pred = predictor_rf.predict_single_sample(data, threshold=0.25)
+        pred = predictor_rf.predict_single_sample(data, threshold=0.543)
         return jsonify({
             'probability': float(pred),
-            'class': 'Delinquent' if pred > 0.25 else 'Not Delinquent'
+            'prediction': 1 if pred > 0.543 else 0
         }), 200
     
     except Exception as e:
